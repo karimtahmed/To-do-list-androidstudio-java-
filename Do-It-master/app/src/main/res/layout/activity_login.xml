@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <LinearLayout
+        android:layout_width="444dp"
+        android:layout_height="786dp"
+        android:foregroundTint="#FFFFFF"
+        android:orientation="vertical"
+        android:padding="8dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:translationX="30dp"
+            android:translationY="130dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="123dp"
+                android:layout_height="52dp"
+                android:text="Log In"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:translationX="30dp"
+            android:translationY="130dp">
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="262dp"
+                android:layout_height="65dp"
+                android:hint="username" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:translationX="30dp"
+            android:translationY="135dp">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="262dp"
+                android:layout_height="67dp"
+                android:ems="10"
+                android:hint="password"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:translationX="30dp"
+            android:translationY="145dp">
+
+            <Button
+                android:id="@+id/confirm"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#009688"
+                android:text="Log in" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:translationX="30dp"
+            android:translationY="155dp">
+
+            <Button
+                android:id="@+id/signup2"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FFFFFF"
+                android:text="or Sign up"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
